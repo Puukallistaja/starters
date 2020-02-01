@@ -9,7 +9,9 @@
   "private": true,
   "scripts": {
     "test": "jest --updateSnapshot",
-    "tdd": "concurrently \"quasar dev\" \"jest --watch\""
+    "tdd": "concurrently \"quasar dev\" \"jest --watch\"",
+    "test:e2e": "cypress open",
+    "test:e2e:CI": "cypress run"
   },
   "dependencies": {
     "@quasar/extras": "^1.0.0",
@@ -19,6 +21,7 @@
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",
+    "@quasar/quasar-app-extension-testing-e2e-cypress": "^1.0.0-beta.10",
     "@quasar/quasar-app-extension-testing-unit-jest": "^1.0.0"
   },
   "engines": {
