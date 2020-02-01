@@ -8,8 +8,8 @@
   "author": "Arto Haponen <arto@haponen.com>",
   "private": true,
   "scripts": {
-    "test": "jest --updateSnapshot",
-    "tdd": "concurrently \"quasar dev\" \"jest --watch\"",
+    "test:unit": "jest --updateSnapshot",
+    "test:dd": "concurrently \"quasar dev\" \"jest --watch\"",
     "test:e2e": "cypress open",
     "test:e2e:CI": "cypress run"
   },
