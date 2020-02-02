@@ -45,6 +45,9 @@ module.exports = {
     '^quasar$': '<rootDir>/node_modules/quasar/dist/quasar.common.js',
     '^~/(.*)$': '<rootDir>/$1',
     '^src/(.*)$': '<rootDir>/src/$1',
+    '^pages(.*)$': '<rootDir>/src/pages/$1',
+    '^layouts(.*)$': '<rootDir>/src/layouts/$1',
+    '^components(.*)$': '<rootDir>/src/components/$1',
     '.*css$': '<rootDir>/test/jest/utils/stub.css'
   },
   transform: {
