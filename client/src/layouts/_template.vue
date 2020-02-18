@@ -6,11 +6,11 @@ q-layout
 </template>
 
 <script>
-import TheTurakas from "components/TheTurakas"
+import Turakas from "components/Turakas"
 export default {
-  name: "PlainContainer",
+  name: "Canvas",
   components: {
-    TheTurakas,
+    Turakas,
   },
   data() {
     return {}

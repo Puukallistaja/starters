@@ -1,17 +1,17 @@
 <template lang="pug">
   q-layout
-
     q-page-container
       router-view
-      the-turakas
+        h1.text-h1 Route: {{ $route.name }}
+      turakas
 </template>
 
 <script>
-import TheTurakas from "components/TheTurakas"
+import Turakas from "components/Turakas"
 export default {
-  name: "PlainContainer",
+  name: "Canvas",
   components: {
-    TheTurakas,
+    Turakas,
   },
   data() {
     return {}
