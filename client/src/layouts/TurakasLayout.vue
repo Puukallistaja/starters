@@ -3,7 +3,8 @@
     q-page-container
       router-view
         h1.text-h1 Route:  {{ $route.name }}
-      turakas
+      keep-alive
+        turakas
 </template>
 
 <script>

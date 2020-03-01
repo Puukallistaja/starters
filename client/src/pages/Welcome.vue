@@ -1,6 +1,6 @@
 <template lang="pug">
-  q-page.flex.flex-center
-    slot Welcome {{ $route.name }}
+  q-page.flex.flex-center.bg-light-blue-4
+    slot {{ $route.name }}
 </template>
 
 <script>

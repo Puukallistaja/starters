@@ -8,13 +8,22 @@
 
 <script>
 import Turakas from "components/Turakas"
+import Expansion from "components/Expansion"
 export default {
   name: "Canvas",
   components: {
     Turakas,
+    Expansion,
   },
   data() {
-    return {}
+    return {
+      test: 3,
+    }
   },
+  mounted() {
+    setTimeout(() => {
+      this.test++
+    }, 3000)
+  }
 }
 </script>
