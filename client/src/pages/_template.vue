@@ -1,10 +1,14 @@
 <template lang="pug">
   q-page.flex.flex-center
-    slot
+    component-template
 </template>
 
 <script>
+import ComponentTemplate from "components/_template"
 export default {
-  name: 'PageContainer'
+  name: 'PageTemplate',
+  components: {
+    ComponentTemplate
+  }
 }
 </script>

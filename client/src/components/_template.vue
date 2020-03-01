@@ -1,10 +1,10 @@
 <template lang="pug">
-  div ComponentName
+  div ComponentTemplate
 </template>
 
 <script>
 export default {
-  name: 'ComponentName',
+  name: 'ComponentTemplate',
   data () {
     return {}
   }
