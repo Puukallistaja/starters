@@ -1,6 +1,4 @@
-# Turakas (turakas_client)
-
-A pre nuclear card game
+# Starter for frontend client (Quasar)
 
 ## Install the dependencies
 ```bash
@@ -17,6 +15,10 @@ quasar dev
 ```bash
 quasar build
 ```
+
+### Audits
+For lighthouse audit, make sure you have built (production) and are serving the version you wish to test
+
 
 ### Customize the configuration
 See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
