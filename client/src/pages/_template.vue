@@ -6,7 +6,7 @@
 <script>
 import ComponentTemplate from "components/_template"
 export default {
-  name: '_template',
+  name: 'pageTemplate',
   components: {
     ComponentTemplate
   }
