@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import ComponentTemplate from "components/_template"
+import ComponentTemplate from "components/.template"
 export default {
   name: 'pageTemplate',
   components: {

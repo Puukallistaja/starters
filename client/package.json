@@ -19,16 +19,16 @@
     "audit:lighthouse": "lighthouse http://localhost:4000 view --output-path=./test/lighthouse/reports/$(date \"+%s\").html --config-path=./test/lighthouse/configs/full-config.js"
   },
   "dependencies": {
-    "@quasar/extras": "^1.6.1",
+    "@quasar/extras": "^1.8.1",
     "axios": "^0.18.1",
-    "quasar": "^1.9.13",
+    "quasar": "^1.11.1",
     "vue-i18n": "^8.0.0"
   },
   "devDependencies": {
-    "@quasar/app": "^1.6.1",
-    "@quasar/quasar-app-extension-testing-e2e-cypress": "^1.0.0-beta.10",
+    "@quasar/app": "^1.8.6",
+    "@quasar/quasar-app-extension-testing-e2e-cypress": "^1.0.0-beta.11",
     "@quasar/quasar-app-extension-testing-quality": "^1.0.0-beta.8",
-    "@quasar/quasar-app-extension-testing-unit-jest": "^1.0.0",
+    "@quasar/quasar-app-extension-testing-unit-jest": "^1.1.0-beta.0",
     "pug": "^2.0.4",
     "pug-plain-loader": "^1.0.0"
   },
